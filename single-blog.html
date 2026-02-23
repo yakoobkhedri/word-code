@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="assets/css/swiper.min.css">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
+  <title>جزئیات بلاگ</title>
+</head>
+
+<body>
+
+  <!-- mobile menu -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="p-3">
+      <form class="rounded-20 h-57 w-100 bg-gray3 d-flex align-items-center px-3 fs-14 fw-bold gap-3">
+        <input placeholder="جستجو..." class="flex-grow-1 bg-transparent outline-none border-0">
+        <span class="line flex-shrink-0 d-block"></span>
+        <button class="bg-transparent border-0">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+              stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22 22L20 20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+            <script xmlns=""></script>
+          </svg>
+        </button>
+      </form>
+      <ul class="fs-14 mt-4 fw-bold p-0 m-0 list-unstyled d-flex flex-column gap-4">
+        <li>
+          <a class="texthover d-block text-dark">صفحه اصلی</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">نمونه کارها</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">وبلاگ</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">درباره ما</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- header -->
+
+  <header>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between gap-3 pt-2">
+        <a><img class="w-sm-120" alt="img" src="assets/img/Group 4973.png"></a>
+        <div class="d-flex align-items-center justify-content-end gap-5 w-100 me-auto">
+          <form
+            class="rounded-20 h-57 max-w-416 w-100 bg-gray3 d-lg-flex d-none align-items-center px-3 fs-14 fw-bold gap-3">
+            <input placeholder="جستجو..." class="flex-grow-1 bg-transparent outline-none border-0">
+            <span class="line flex-shrink-0 d-block"></span>
+            <button class="bg-transparent border-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22 22L20 20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <script xmlns="" />
+              </svg>
+            </button>
+          </form>
+          <a class="d-flex align-items-center gap-2 text-dark">
+            <div>
+              <p class="mb-0 fw-bold">۰۲۱-۱۲۳۴۴۵۶</p>
+              <p class="mb-0 fs-12 text-gray3">پشتیبانی ۲۴ ساعته</p>
+            </div>
+            <img alt="img" src="assets/img/Group 4970.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-sky2 shadow3 py-2 mt-2 position-relative">
+      <img alt="img" src="assets/img/Rectangle 52.png"
+        class="position-absolute w-274 w-sm-154 end-0 top-0 bottom-0 h-100">
+      <img alt="img" src="assets/img/Rectangle 53.png"
+        class="position-absolute w-274 w-sm-154 right-6 top-0 bottom-0 h-100">
+      <div class="container position-relative">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <div class="d-flex align-items-center gap-5">
+            <div class="d-flex align-items-center gap-3">
+              <img alt="img" src="assets/img/Frame 5007.svg">
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-14 fw-bold p-0 text-white" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  خدمات ما
+                </a>
+                <ul class="dropdown-menu text-end">
+                  <li><a class="dropdown-item" href="#">وردپرس</a></li>
+                  <li><a class="dropdown-item" href="#">کدنویسی</a></li>
+                  <li><a class="dropdown-item" href="#">سئو</a></li>
+                </ul>
+              </div>
+            </div>
+            <nav class="me-4 d-none d-lg-block">
+              <ul class="fs-14 fw-bold p-0 m-0 list-unstyled d-flex align-items-center gap-lg-5 gap-4">
+                <li>
+                  <a class="texthover text-dark">صفحه اصلی</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">نمونه کارها</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">وبلاگ</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">درباره ما</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <a
+              class="fs-14 btnhover w-142 w-sm-53 h-51 fw-bold bg-main text-white d-flex align-items-center justify-content-center gap-2 rounded-20">
+              <img alt="img" src="assets/img/profile.svg">
+              <p class="mb-0 d-none d-sm-block">پنل مشتریان</p>
+            </a>
+            <svg data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" xmlns="http://www.w3.org/2000/svg"
+              width="28" height="28" fill="currentColor" class="bi bi-list cursor d-lg-none" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+
+  <main>
+
+    <section>
+      <div class="container mt-5">
+        <div class="rounded-20 shadow1 bg-white py-4 px-sm-5 px-3 position-relative overflow-hidden">
+          <img alt="img" src="assets/img/Blend Group 2.png" class="position-absolute top-0 end-0 bottom-0 h-100">
+          <img alt="img" src="assets/img/Vector.png" class="position-absolute left-32 top-50">
+          <div class="position-relative">
+            <h2 class="fs-32 fs-sm-18 fw-bold">وبلاگ</h2>
+          </div>
+          <div
+            class="w-51 h-51 z-1 left-70 bottom-0 shadow2 rounded-20 position-absolute bg-white d-flex align-items-center justify-content-center">
+            <img alt="img" src="assets/img/note-2.svg">
+          </div>
+          <svg class="position-absolute left-45 bottom-0 rotate-180" xmlns="http://www.w3.org/2000/svg" width="115"
+            height="29" viewBox="0 0 115 29" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0.808594 0C12.6826 0 23.9746 5.14326 31.7683 14.1015C48.3963 33.2142 77.9745 33.5444 95.025 14.8076L104.338 4.57329C106.989 1.6604 110.745 0 114.683 0H0.808594Z"
+              fill="#fbfbfb"></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5">
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="rounded-20 overflow-hidden imgOverlay">
+              <img alt="img" src="assets/img/Rectangle 1084.png" class="rounded-20 w-100">
+              <a
+                class="position-absolute end-0 top-0 bottom-0 start-0 m-auto z-1 d-flex align-items-center justify-content-center">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="36" cy="36" r="35" fill="white" fill-opacity="0.5" stroke="#F6F6F6" stroke-width="2" />
+                  <g clip-path="url(#clip0_261_610)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M28.193 27.0204C28.2278 26.7275 28.3305 26.4468 28.4929 26.2005C28.6552 25.9543 28.8728 25.7493 29.1283 25.6019C29.3838 25.4545 29.6702 25.3687 29.9646 25.3514C30.2591 25.334 30.5536 25.3856 30.8246 25.5021C32.1945 26.0877 35.2647 27.4797 39.1605 29.7281C43.0576 31.9779 45.7989 33.9426 46.9896 34.8339C48.0061 35.5963 48.0087 37.1082 46.9908 37.8732C45.8118 38.7594 43.1041 40.6983 39.1605 42.9764C35.2131 45.2546 32.1791 46.6297 30.822 47.2076C29.6532 47.7069 28.3452 46.9496 28.193 45.6893C28.0149 44.2161 27.6821 40.8711 27.6821 36.3536C27.6821 31.8386 28.0137 28.4949 28.193 27.0204Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_261_610">
+                      <rect width="30.96" height="30.96" fill="white" transform="translate(20.8799 20.88)" />
+                    </clipPath>
+                  </defs>
+                  <script xmlns="" />
+                </svg>
+              </a>
+            </div>
+            <p class="mt-4 pb-4 fs-18 fs-sm-14 text-justify fw-semibold">
+              وردپرس به دلیل انعطاف‌پذیری بالا و جامعه کاربری گسترده، به یکی از محبوب‌ترین پلتفرم‌های توسعه وب در دنیا
+              تبدیل شده است. یکی از دلایل این محبوبیت، وجود هزاران افزونه آماده است که امکانات مختلفی را تنها با چند
+              کلیک در اختیار کاربران قرار می‌دهند.
+            </p>
+            <div class="mt-4 d-flex align-items-center gap-3 rounded-10 bg-sky2 p-2">
+              <img alt="img" src="assets/img/Frame 4979.svg" class="flex-shrink-0">
+              <p class="font-bold fs-18 fs-sm-14 mb-0"> مهارت تعمیرات موبایل — پردرآمدترین مهارت سال‌های اخیر</p>
+            </div>
+            <div class="mt-4">
+              <h4 class="fs-24 fs-sm-20 font-bold">چرا مهم است؟</h4>
+              <ul class="fs-18 fs-sm-14 fw-semibold pe-4 m-0">
+                <li>روزانه هزاران گوشی نیاز به تعمیر دارند.</li>
+                <li>بازار کار آن اشباع نشده است.</li>
+                <li>با کمترین سرمایه می‌توانید کار خود را شروع کنید.</li>
+              </ul>
+              <h5 class="font-bold fs-18 fs-sm-14 mt-3">مثال درآمد واقعی:</h5>
+              <p class="fw-bold fs-18 fs-sm-14 text-justify">
+                یک تعمیرکار متوسط در تهران ماهانه بین ۱۵ تا ۳۰ میلیون تومان درآمد دارد.
+              </p>
+            </div>
+            <img alt="img" src="assets/img/Rectangle 1087.png" class="rounded-15 w-100 mt-4">
+            <div class="mt-5 d-flex align-items-center gap-3 rounded-10 bg-sky2 p-2">
+              <img alt="img" src="assets/img/Frame 4979.svg" class="flex-shrink-0">
+              <p class="font-bold fs-18 fs-sm-14 mb-0">افزونه آماده وردپرس چیست؟</p>
+            </div>
+            <div class="mt-4">
+              <p class="fw-bold fs-18 fs-sm-14 text-justify">افزونه‌های آماده، پلاگین‌هایی هستند که برای استفاده عمومی طراحی
+                شده‌اند و معمولاً طیف گسترده‌ای از امکانات را در قالب یک محصول واحد ارائه می‌دهند</p>
+              <h4 class="fs-24 fs-sm-20 font-bold mt-5">مزایای افزونه‌های آماده</h4>
+              <ul class="fs-18 fs-sm-14 fw-semibold pe-4 m-0">
+                <li>نصب و راه‌اندازی سریع بدون نیاز به دانش فنی</li>
+                <li>هزینه اولیه کمتر نسبت به توسعه اختصاصی</li>
+                <li>مناسب برای پروژه‌های کوچک یا موقت</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <img alt="img" src="assets/img/Rectangle 1090.png" class="rounded-10 w-100">
+                </div>
+                <div class="col-md-6">
+                  <img alt="img" src="assets/img/Rectangle 1090.png" class="rounded-10 w-100">
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 d-flex align-items-center gap-3 rounded-10 bg-sky2 p-2">
+              <img alt="img" src="assets/img/Frame 4979.svg" class="flex-shrink-0">
+              <p class="font-bold fs-18 fs-sm-14 mb-0">جمع بندی</p>
+            </div>
+            <p class="fs-18 fs-sm-14 text-justify mt-4">اگرچه افزونه‌های آماده برای شروع سریع مناسب هستند، اما در پروژه‌های
+              حرفه‌ای و بلندمدت، پلاگین اختصاصی وردپرس یک سرمایه‌گذاری ارزشمند محسوب می‌شود.</p>
+            <div class="mt-5 rounded-20 border p-sm-4 p-3">
+              <div class="d-flex align-items-center justify-content-between gap-2">
+                <h4 class="font-bold fs-20 fs-sm-16 mb-0">دیدگاه و پرسش</h4>
+                <a class="fs-18 fs-sm-14 text-main fw-semibold text-decoration-underline">ارسال دیدگاه</a>
+              </div>
+              <div class="mt-4 flex-wrap pt-2 d-flex align-items-center justify-content-between gap-2">
+                <div class="d-flex align-items-center gap-3">
+                  <img alt="img" src="assets/img/Ellipse 268.png" class="w-60 h-60 rounded-circle flex-shrink-0">
+                  <div class="text-gray5">
+                    <p class="mb-2">امین حیدری</p>
+                    <p class="mb-0">1402-11-08</p>
+                  </div>
+                </div>
+                <div
+                  class="w-70 h-32 rounded-5 bg-yellow d-flex align-items-center justify-content-center text-white fs-18 font-bold">
+                  <p class="mb-0">۵.۰</p>
+                  <img alt="img" src="assets/img/Group 1098.svg" class="flex-shrink-0">
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-2 mt-4">
+                <img alt="img" src="assets/img/message-2.svg" class="flex-shrink-0">
+                <p class="mb-0 text-justify fs-18 fs-sm-14">
+                  مقاله خیلی خوبی بود، مخصوصاً توضیح تفاوت پلاگین اختصاصی با افزونه‌های آماده. دقیقاً مشکلی بود که توی
+                  پروژه قبلیم باهاش درگیر بودم. ممنون بابت توضیحات شفاف.
+                </p>
+              </div>
+              <div class="mt-4 d-flex align-items-center gap-2 flex-wrap me-4 pe-2">
+                <p class="mb-0 text-gray6">پاسخ:</p>
+                <p class="mb-0 fs-18">درود بر شما، متشکریم.</p>
+              </div>
+            </div>
+            <form class="mt-4 rounded-20 border p-sm-4 p-3">
+              <h5 class="font-bold fs-18 fs-sm-16 text-center">دیدگاهتان را بنویسید</h5>
+              <div class="mt-4">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <input placeholder="نام" class="h-51 rounded-10 w-100 outline-none border-0 bg-sky2 px-3">
+                  </div>
+                  <div class="col-md-6">
+                    <input placeholder="ایمیل" class="h-51 rounded-10 w-100 outline-none border-0 bg-sky2 px-3">
+                  </div>
+                  <div class="col-12">
+                    <textarea rows="4" placeholder="دیدگاه"
+                      class="rounded-10 w-100 outline-none border-0 bg-sky2 p-3"></textarea>
+                    <div class="mt-4 flex-column flex-sm-row flex-wrap d-flex align-items-center justify-content-between gap-2">
+                      <p class="mb-0 font-bold">نشانی ایمیل شما منتشر نخواهد شد.</p>
+                      <input value="ارسال دیدگاه" type="submit"
+                        class="btnhover transition w-164 h-46 rounded-10 bg-main text-white fs-18 font-bold border-0 d-flex align-items-center justify-content-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <div class="rounded-20 border p-sm-4 p-3">
+              <div class="border-r-gray-5 pe-3">
+                <h4 class="fs-24 fs-sm-20 font-bold border-r-after position-relative pt-3">پلاگین اختصاصی وردپرس چیست؟</h4>
+                <p class="mt-4 fs-18 fs-sm-14 text-gray7">
+                  پلاگین اختصاصی دقیقاً بر اساس نیازهای پروژه شما توسعه داده می‌شود؛ بدون امکانات اضافه و با تمرکز کامل
+                  روی عملکرد، امنیت و توسعه‌پذیری.
+                </p>
+              </div>
+              <div class="mt-5 flex-wrap border-bottom pb-5 d-flex align-items-center gap-3 text-gray6">
+                <div class="d-flex align-items-center gap-2">
+                  <img alt="img" src="assets/img/calendar (2).svg" class="flex-shrink-0">
+                  <p class="mb-0">1402-11-08</p>
+                </div>
+                <span class="line"></span>
+                <div class="d-flex align-items-center gap-2">
+                  <img alt="img" src="assets/img/clock.svg" class="flex-shrink-0">
+                  <p class="mb-0">زمان مطالعه: 13 دقیقه</p>
+                </div>
+              </div>
+              <div class="mt-4 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                <div class="d-flex align-items-center gap-2 font-bold fs-18 fs-sm-14">
+                  <img alt="img" src="assets/img/Group 4986.svg" class="flex-shrink-0">
+                  <p class="mb-0">اشتراک گذاری</p>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                  <a class="socialHover insta">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.9124 13.3293C18.6538 16.0707 18.6538 20.5057 15.9124 23.235C13.171 25.9642 8.73603 25.9764 6.00681 23.235C3.27759 20.4935 3.2654 16.0586 6.00681 13.3293"
+                        stroke="#1D1D1D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M12.9032 16.3388C10.0521 13.4877 10.0521 8.8578 12.9032 5.99455C15.7542 3.13131 20.3842 3.14349 23.2474 5.99455C26.1107 8.84561 26.0985 13.4755 23.2474 16.3388"
+                        stroke="#1D1D1D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <script xmlns="" />
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_261_600)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M21.7113 8.51657C21.2811 7.89753 20.1308 7.02747 18.2676 7.40279C17.1807 7.62092 16.5312 8.15831 16.1181 8.86751C15.6782 9.62303 15.4649 10.6503 15.4649 11.8457C15.4649 12.1689 15.3365 12.4788 15.108 12.7074C14.8795 12.9359 14.5695 13.0643 14.2463 13.0643C11.3632 13.0643 8.61898 12.2076 6.30979 9.89111C6.13524 10.831 6.06657 11.7874 6.10507 12.7426C6.16965 14.0659 6.48526 15.393 7.23468 16.5299C7.97192 17.6473 9.18439 18.6709 11.2121 19.3143C11.4108 19.3773 11.59 19.4903 11.7326 19.6424C11.8751 19.7944 11.9763 19.9805 12.0265 20.1828C12.0766 20.3852 12.074 20.597 12.0189 20.798C11.9638 20.999 11.858 21.1826 11.7117 21.3311C11.0624 21.9975 10.3263 22.5733 9.52316 23.0431C10.8148 23.1772 12.0602 23.1869 13.2154 23.0821C15.5551 22.8701 17.4183 22.2011 18.5832 21.2543C21.0362 19.2656 22.3486 16.2996 22.1049 11.3302C22.0635 10.5138 22.8519 9.63278 23.2321 8.96378C22.6581 9.07102 22.083 9.05152 21.7113 8.51657ZM5.59814 6.07333C5.81877 6.04769 6.0422 6.08284 6.2443 6.17498C6.4464 6.26711 6.61948 6.41273 6.74482 6.5961C8.54343 9.22699 10.7027 10.3213 13.0997 10.5699C13.2166 9.54504 13.4933 8.53241 14.0136 7.64041C14.7764 6.33167 16.0169 5.369 17.7887 5.01317C20.238 4.52087 22.1025 5.40799 23.1833 6.49374L25.367 6.08552C25.5955 6.0427 25.8315 6.06615 26.0471 6.15308C26.2627 6.24002 26.449 6.38683 26.5839 6.57617C26.7188 6.76552 26.7967 6.9895 26.8084 7.22169C26.8202 7.45387 26.7653 7.68458 26.6502 7.88656L24.5542 11.5691C24.7455 16.8833 23.2686 20.5926 20.1198 23.1479C18.4504 24.503 16.0596 25.2719 13.436 25.5095C10.7917 25.7484 7.80254 25.4596 4.83166 24.592C4.57782 24.5179 4.35496 24.3633 4.19669 24.1515C4.03843 23.9397 3.95336 23.6821 3.95433 23.4177C3.95529 23.1533 4.04223 22.8964 4.20203 22.6857C4.36183 22.475 4.58582 22.3221 4.84019 22.2499C6.33416 21.8246 7.4723 21.4578 8.49956 20.8156C7.03849 20.0406 5.96249 19.0267 5.20089 17.8715C4.14317 16.2655 3.75079 14.4742 3.6728 12.8596C3.59481 11.2449 3.82756 9.74854 4.07371 8.67011C4.21384 8.05473 4.37713 7.43813 4.60257 6.84834C4.68209 6.64044 4.81703 6.45829 4.99276 6.32167C5.16848 6.18504 5.37705 6.09915 5.59814 6.07333Z"
+                          fill="black" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_261_600">
+                          <rect width="29.2457" height="29.2457" fill="white" />
+                        </clipPath>
+                      </defs>
+                      <script xmlns="" />
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.2138 5.98319C22.0966 4.8547 20.7659 3.95995 19.2993 3.35114C17.8327 2.74232 16.2595 2.43161 14.6716 2.43715C8.01817 2.43715 2.59553 7.85978 2.59553 14.5132C2.59553 16.6457 3.15608 18.7173 4.20405 20.5451L2.49805 26.8086L8.89554 25.1269C10.6625 26.0896 12.6487 26.6014 14.6716 26.6014C21.325 26.6014 26.7476 21.1788 26.7476 14.5254C26.7476 11.2962 25.4925 8.26191 23.2138 5.98319ZM14.6716 24.5542C12.8681 24.5542 11.1012 24.0668 9.55357 23.1528L9.188 22.9335L5.38606 23.9327L6.39747 20.2283L6.15376 19.8505C5.15178 18.2505 4.61975 16.401 4.61836 14.5132C4.61836 8.98087 9.12707 4.47216 14.6594 4.47216C17.3402 4.47216 19.8627 5.52013 21.7515 7.4211C22.6867 8.35204 23.4279 9.45936 23.932 10.6789C24.4361 11.8984 24.6931 13.2058 24.6882 14.5254C24.7126 20.0577 20.2039 24.5542 14.6716 24.5542ZM20.1795 17.0478C19.8749 16.9016 18.3882 16.1704 18.1201 16.0608C17.8399 15.9633 17.6449 15.9145 17.4377 16.207C17.2306 16.5116 16.6578 17.194 16.4872 17.389C16.3166 17.5962 16.1339 17.6205 15.8292 17.4621C15.5246 17.3159 14.5497 16.9869 13.4043 15.9633C12.5025 15.159 11.9054 14.172 11.7226 13.8673C11.552 13.5627 11.6983 13.4043 11.8567 13.2459C11.9907 13.1118 12.1613 12.8925 12.3075 12.7219C12.4538 12.5513 12.5147 12.4172 12.6122 12.2223C12.7097 12.0151 12.6609 11.8445 12.5878 11.6983C12.5147 11.5521 11.9054 10.0654 11.6617 9.45611C11.418 8.8712 11.1621 8.94431 10.9793 8.93213H10.3944C10.1872 8.93213 9.8704 9.00524 9.59013 9.30988C9.32204 9.61453 8.54216 10.3457 8.54216 11.8323C8.54216 13.319 9.62669 14.7569 9.77291 14.9519C9.91914 15.159 11.9054 18.2055 14.9275 19.5093C15.6464 19.8262 16.207 20.0089 16.6457 20.143C17.3646 20.3745 18.0226 20.3379 18.5466 20.2648C19.1315 20.1795 20.3379 19.5337 20.5816 18.8269C20.8375 18.1202 20.8375 17.5231 20.7522 17.389C20.6669 17.255 20.4842 17.194 20.1795 17.0478Z"
+                        fill="#1D1D1D" />
+                      <script xmlns="" />
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.05302 17.0843C7.10538 17.1018 7.15922 17.1144 7.21387 17.1221C7.55863 17.9345 7.90146 18.7477 8.24235 19.5617C8.85529 21.0264 9.4731 22.535 9.60836 22.9688C9.77775 23.5026 9.95566 23.8657 10.1506 24.1143C10.2518 24.241 10.3675 24.3531 10.504 24.4384C10.5751 24.4829 10.6512 24.5189 10.7307 24.5457C11.1206 24.6919 11.4764 24.631 11.6994 24.5566C11.8303 24.512 11.9548 24.4505 12.0699 24.3738L12.076 24.3714L15.5197 22.2243L19.4983 25.2731C19.5568 25.3182 19.6201 25.356 19.6884 25.3865C20.1661 25.5936 20.6291 25.6667 21.0654 25.6082C21.4992 25.5473 21.844 25.3658 22.1012 25.1598C22.3964 24.9219 22.6318 24.618 22.7884 24.2727L22.7994 24.2459L22.803 24.2361L22.8055 24.2313V24.2288L22.8067 24.2276C22.8279 24.1752 22.8442 24.1209 22.8554 24.0655L26.4868 5.75651C26.4983 5.69791 26.504 5.63832 26.5038 5.5786C26.5038 5.04243 26.3016 4.53185 25.8275 4.22355C25.4205 3.95912 24.9684 3.94694 24.6821 3.96887C24.375 3.99324 24.0899 4.06879 23.8985 4.12972C23.7914 4.16367 23.6858 4.20188 23.5817 4.24427L23.5683 4.25036L3.20112 12.2393L3.19868 12.2405C3.12977 12.2659 3.06188 12.2939 2.99518 12.3246C2.83367 12.3972 2.67874 12.4837 2.53212 12.5829C2.25551 12.7718 1.6182 13.2909 1.72665 14.1488C1.81195 14.8312 2.27988 15.2516 2.56624 15.4539C2.72222 15.5648 2.87089 15.644 2.98056 15.6964C3.0293 15.7208 3.1341 15.7622 3.17918 15.7817L3.19137 15.7854L7.05302 17.0843ZM24.2812 5.93199H24.2787C24.2683 5.93665 24.2577 5.94111 24.2471 5.94539L3.85549 13.9453C3.845 13.9496 3.83444 13.9536 3.82381 13.9575L3.81162 13.9612C3.77437 13.9758 3.73778 13.9921 3.70195 14.0099C3.73587 14.0293 3.77086 14.0468 3.80675 14.0623L7.6355 15.3515C7.70392 15.3746 7.76936 15.4057 7.83047 15.4442L20.4756 8.04133L20.4878 8.03524C20.5369 8.00539 20.5873 7.97775 20.6389 7.95238C20.7266 7.90729 20.8667 7.84149 21.0252 7.79275C21.1348 7.75863 21.4602 7.66236 21.8111 7.77569C21.9973 7.83436 22.1632 7.9442 22.2899 8.09266C22.4166 8.24112 22.499 8.42222 22.5277 8.61528C22.573 8.78436 22.5743 8.96225 22.5313 9.13196C22.446 9.46706 22.212 9.72784 21.9976 9.92768C21.8148 10.0983 19.4447 12.3843 17.1062 14.6411L13.9221 17.7119L13.3555 18.2603L20.5109 23.7463C20.6075 23.7868 20.7124 23.8035 20.8168 23.795C20.8694 23.7879 20.9188 23.7659 20.9594 23.7317C21.0088 23.69 21.0511 23.6406 21.0849 23.5854L21.0873 23.5842L24.609 5.82597C24.498 5.85266 24.3893 5.88769 24.2836 5.93077L24.2812 5.93199ZM13.9708 21.035L12.5427 19.9407L12.1966 22.1402L13.9708 21.035ZM11.2327 17.7692L12.6524 16.3983L15.8365 13.3251L17.0221 12.182L9.07707 16.8333L9.11972 16.9332C9.6208 18.117 10.1164 19.3031 10.6064 20.4915L10.9512 18.298C10.9824 18.0946 11.0817 17.909 11.2327 17.7692Z"
+                        fill="black" />
+                      <script xmlns="" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 border-yellow rounded-20 p-sm-4 p-3">
+              <h5 class="font-bold fs-18 fs-sm-14">مطالبی که در این بخش یاد می گیرید!</h5>
+              <div class="mt-4">
+                <div class="rounded-10 d-flex align-items-center gap-2 fs-sm-14 bg-yellow2 p-sm-3 p-2 mb-3">
+                  <img alt="img" src="assets/img/Group 4970 (2).svg" class="flex-shrink-0">
+                  <p class="mb-0">تعمیرات موبایل دقیقاً شامل چه مهارت‌هایی است؟</p>
+                </div>
+                <div class="rounded-10 d-flex align-items-center gap-2 fs-sm-14 bg-yellow2 p-sm-3 p-2 mb-3">
+                  <img alt="img" src="assets/img/Group 4970 (2).svg" class="flex-shrink-0">
+                  <p class="mb-0">بازار کار تعمیرات موبایل در سال ۱۴۰۴ چگونه است؟</p>
+                </div>
+                <div class="rounded-10 d-flex align-items-center gap-2 fs-sm-14 bg-yellow2 p-sm-3 p-2 mb-3">
+                  <img alt="img" src="assets/img/Group 4970 (2).svg" class="flex-shrink-0">
+                  <p class="mb-0">ابزارهای ضروری و قیمت تقریبی آن‌ها</p>
+                </div>
+                <div class="rounded-10 d-flex align-items-center gap-2 fs-sm-14 bg-yellow2 p-sm-3 p-2 mb-3">
+                  <img alt="img" src="assets/img/Group 4970 (2).svg" class="flex-shrink-0">
+                  <p class="mb-0">مزایا و چالش‌های این رشته</p>
+                </div>
+                <div class="morecontent">
+                  <div class="rounded-10 d-flex align-items-center gap-2 fs-sm-14 bg-yellow2 p-sm-3 p-2 mb-3">
+                    <img alt="img" src="assets/img/Group 4970 (2).svg" class="flex-shrink-0">
+                    <p class="mb-0">ابزارهای ضروری و قیمت تقریبی آن‌ها</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center gap-2 fs-18 fs-sm-14 cursor moreBtn">
+                 <p class="mb-0">مشاهده همه</p>
+                 <img alt="img" src="assets/img/Group 4971.svg" class="flex-shrink-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="mt-5 pt-5">
+    <div class="container">
+      <div class="bg-sky rounded-20 p-4 py-5 position-relative">
+        <svg class="position-absolute left-45 top-0" xmlns="http://www.w3.org/2000/svg" width="115" height="29"
+          viewBox="0 0 115 29" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.808594 0C12.6826 0 23.9746 5.14326 31.7683 14.1015C48.3963 33.2142 77.9745 33.5444 95.025 14.8076L104.338 4.57329C106.989 1.6604 110.745 0 114.683 0H0.808594Z"
+            fill="white"></path>
+        </svg>
+        <a href="#"
+          class="w-64 h-64 translateHover d-flex align-items-center justify-content-center position-absolute left-76 rounded-circle -top-47 bg-gradient-1">
+          <img alt="img" src="assets/img/Group 4942.svg">
+        </a>
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between gap-lg-5 gap-2">
+          <a><img alt="img" src="assets/img/Group 9145.png"></a>
+          <p class="fs-18 fs-sm-14 fw-bold text-justify mb-0">
+            ارائه‌دهنده خدمات توسعه اختصاصی پلاگین‌های وردپرس و نرم‌افزارهای تحت وب است. تمرکز ما بر کیفیت کد، امنیت،
+            عملکرد بالا و ایجاد راهکارهایی متناسب با رشد کسب‌وکار شماست.
+          </p>
+        </div>
+        <div class="mt-4 d-flex align-items-center gap-3 flex-wrap flex-lg-nowrap justify-content-between">
+          <div class="d-flex align-items-center gap-3 pe-3 border-r-yellow flex-shrink-0">
+            <p class="fw-bold fs-20 fs-sm-16 mb-0"><span class="text-main">ارتباط</span> با ما</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/call-calling.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14"><span class="text-main">۰۲۱-</span>۴۴۱۹۵۱۰۱-۳</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/sms.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14">info@wordcode.com</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/location.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14">تهران ، خیابان شهید استاد مطهری ، نبش خیابان شهید دکتر مفتح</p>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <h5 class="fs-18 fw-bold text-gray">خدمات</h5>
+              <ul class="list-unstyled mt-3 mb-0 p-0">
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه پلاگین اختصاصی وردپرس</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه نرم‌افزارهای تحت وب</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه قالب‌های اختصاصی وردپرس</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">بهینه‌سازی و توسعه امکانات اختصاصی</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="fs-18 fw-bold text-gray">دسترسی سریع</h5>
+              <ul class="list-unstyled mt-3 mb-0 p-0">
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">صفحه اصلی</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">مقالات</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">تماس با ما</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">درخواست مشاوره</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
+                <h5 class="fs-18 fw-bold text-gray">شبکه های اجتماعی:</h5>
+                <div class="d-flex align-items-center gap-4">
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <g clip-path="url(#clip0_266_1064)">
+                        <path
+                          d="M12.0011 1.59392C2.7311 1.59092 -1.9119 12.7969 4.6411 19.3519C6.09588 20.8071 7.9495 21.7981 9.96756 22.1998C11.9856 22.6014 14.0774 22.3955 15.9785 21.6082C17.8796 20.821 19.5044 19.4876 20.6477 17.7768C21.7909 16.066 22.4011 14.0545 22.4011 11.9969C22.4011 6.25292 17.7461 1.59592 12.0011 1.59392ZM6.1101 6.78292C6.6111 4.18492 10.0031 3.48892 11.4861 5.67992C12.9691 7.87092 11.0641 10.7619 8.4661 10.2619C8.08291 10.1883 7.71797 10.0399 7.39215 9.8252C7.06633 9.61049 6.78602 9.33369 6.56722 9.0106C6.34842 8.68752 6.19544 8.32448 6.117 7.94224C6.03857 7.56001 6.03622 7.16606 6.1101 6.78292ZM10.4321 15.7709C9.9281 18.3679 6.5361 19.0589 5.0551 16.8669C3.5741 14.6749 5.4821 11.7869 8.0801 12.2879C8.46334 12.362 8.82823 12.5108 9.1539 12.726C9.47957 12.9412 9.75963 13.2184 9.97807 13.5419C10.1965 13.8654 10.349 14.2287 10.427 14.6112C10.5049 14.9937 10.5066 15.3878 10.4321 15.7709ZM11.6921 13.3659C10.5401 13.1429 10.2301 11.6389 11.2011 10.9789C12.1711 10.3189 13.4571 11.1589 13.2411 12.3129C13.2091 12.4839 13.1435 12.6469 13.0483 12.7925C12.953 12.9381 12.8299 13.0635 12.6861 13.1613C12.5422 13.2592 12.3804 13.3277 12.21 13.3628C12.0396 13.3979 11.8629 13.3989 11.6921 13.3659ZM17.8911 17.2039C17.3901 19.8019 13.9981 20.4969 12.5151 18.3069C11.0321 16.1169 12.9361 13.2249 15.5351 13.7239C15.9184 13.7975 16.2834 13.946 16.6093 14.1607C16.9352 14.3755 17.2156 14.6524 17.4344 14.9756C17.6532 15.2988 17.8062 15.6619 17.8845 16.0443C17.9629 16.4267 17.9651 16.8207 17.8911 17.2039ZM15.9241 11.7019C13.3261 11.2009 12.6311 7.80592 14.8221 6.32192C17.0131 4.83792 19.9031 6.74392 19.4041 9.34192C19.331 9.72557 19.1829 10.091 18.9683 10.4174C18.7537 10.7437 18.4769 11.0245 18.1536 11.2438C17.8304 11.463 17.4671 11.6163 17.0845 11.6949C16.7019 11.7735 16.3076 11.7759 15.9241 11.7019ZM13.5901 23.2639L15.8541 23.8739C16.8061 24.1265 17.8194 23.9907 18.6713 23.4964C19.5232 23.0021 20.144 22.1898 20.3971 21.2379L21.0371 18.8359C19.2355 21.2363 16.5585 22.8278 13.5891 23.2639M21.2321 3.59892L18.8691 2.96992C20.0631 3.88862 21.0628 5.03525 21.8102 6.34331C22.5576 7.65137 23.0379 9.09481 23.2231 10.5899L23.8731 8.13092C24.1219 7.17979 23.9835 6.16883 23.4883 5.31953C22.9931 4.47024 22.1814 3.85187 21.2311 3.59992M0.672102 13.8089L0.131102 15.8489C-0.1215 16.8009 0.0142757 17.8142 0.50858 18.6661C1.00288 19.518 1.81526 20.1388 2.7671 20.3919L4.8741 20.9539C2.62464 19.1854 1.12499 16.6343 0.672102 13.8089ZM10.3571 0.701917L8.1501 0.125917C7.67839 0.000260472 7.18654 -0.0311959 6.70266 0.0333455C6.21879 0.097887 5.75238 0.257161 5.33009 0.502062C4.90781 0.746963 4.53793 1.07269 4.2416 1.46062C3.94527 1.84855 3.72831 2.29108 3.6031 2.76292L3.0521 4.84492C4.87009 2.58287 7.48259 1.10083 10.3571 0.701917Z"
+                          fill="#303030" fill-opacity="0.5" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_266_1064">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M19.05 4.91006C18.1332 3.98399 17.0412 3.24973 15.8377 2.75011C14.6341 2.25049 13.3432 1.99552 12.04 2.00006C6.58005 2.00006 2.13005 6.45006 2.13005 11.9101C2.13005 13.6601 2.59005 15.3601 3.45005 16.8601L2.05005 22.0001L7.30005 20.6201C8.75005 21.4101 10.38 21.8301 12.04 21.8301C17.5 21.8301 21.9501 17.3801 21.9501 11.9201C21.9501 9.27006 20.92 6.78006 19.05 4.91006ZM12.04 20.1501C10.56 20.1501 9.11005 19.7501 7.84005 19.0001L7.54005 18.8201L4.42005 19.6401L5.25005 16.6001L5.05005 16.2901C4.2278 14.977 3.79119 13.4593 3.79005 11.9101C3.79005 7.37006 7.49005 3.67006 12.03 3.67006C14.23 3.67006 16.3 4.53006 17.85 6.09006C18.6175 6.85402 19.2257 7.76272 19.6394 8.76348C20.0531 9.76425 20.2641 10.8372 20.26 11.9201C20.2801 16.4601 16.58 20.1501 12.04 20.1501ZM16.56 13.9901C16.31 13.8701 15.09 13.2701 14.87 13.1801C14.64 13.1001 14.48 13.0601 14.31 13.3001C14.14 13.5501 13.67 14.1101 13.53 14.2701C13.39 14.4401 13.24 14.4601 12.99 14.3301C12.74 14.2101 11.94 13.9401 11 13.1001C10.26 12.4401 9.77005 11.6301 9.62005 11.3801C9.48005 11.1301 9.60005 11.0001 9.73005 10.8701C9.84005 10.7601 9.98005 10.5801 10.1 10.4401C10.22 10.3001 10.27 10.1901 10.35 10.0301C10.43 9.86006 10.39 9.72006 10.33 9.60006C10.27 9.48006 9.77005 8.26006 9.57005 7.76006C9.37005 7.28006 9.16005 7.34006 9.01005 7.33006H8.53005C8.36005 7.33006 8.10005 7.39006 7.87005 7.64006C7.65005 7.89006 7.01005 8.49006 7.01005 9.71006C7.01005 10.9301 7.90005 12.1101 8.02005 12.2701C8.14005 12.4401 9.77005 14.9401 12.25 16.0101C12.84 16.2701 13.3 16.4201 13.66 16.5301C14.25 16.7201 14.79 16.6901 15.22 16.6301C15.7 16.5601 16.69 16.0301 16.89 15.4501C17.1 14.8701 17.1 14.3801 17.03 14.2701C16.96 14.1601 16.81 14.1101 16.56 13.9901Z"
+                        fill="#303030" fill-opacity="0.5" />
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.78807 14.02C5.83104 14.0343 5.87522 14.0447 5.92007 14.051C6.20299 14.7176 6.48433 15.385 6.76407 16.053C7.26707 17.255 7.77407 18.493 7.88507 18.849C8.02407 19.287 8.17007 19.585 8.33007 19.789C8.41307 19.893 8.50807 19.985 8.62007 20.055C8.67842 20.0915 8.74084 20.121 8.80607 20.143C9.12607 20.263 9.41807 20.213 9.60107 20.152C9.70846 20.1153 9.81065 20.0649 9.90507 20.002L9.91007 20L12.7361 18.238L16.0011 20.74C16.0491 20.777 16.1011 20.808 16.1571 20.833C16.5491 21.003 16.9291 21.063 17.2871 21.015C17.6431 20.965 17.9261 20.816 18.1371 20.647C18.3794 20.4517 18.5725 20.2024 18.7011 19.919L18.7101 19.897L18.7131 19.889L18.7151 19.885V19.883L18.7161 19.882C18.7335 19.839 18.7468 19.7945 18.7561 19.749L21.7361 4.72399C21.7455 4.67589 21.7502 4.62699 21.7501 4.57799C21.7501 4.13799 21.5841 3.71899 21.1951 3.46599C20.8611 3.24899 20.4901 3.23899 20.2551 3.25699C20.0031 3.27699 19.7691 3.33899 19.6121 3.38899C19.5242 3.41684 19.4375 3.4482 19.3521 3.48299L19.3411 3.48799L2.62707 10.044L2.62507 10.045C2.56852 10.0658 2.51281 10.0888 2.45807 10.114C2.32553 10.1736 2.19839 10.2445 2.07807 10.326C1.85107 10.481 1.32807 10.907 1.41707 11.611C1.48707 12.171 1.87107 12.516 2.10607 12.682C2.23407 12.773 2.35607 12.838 2.44607 12.881C2.48607 12.901 2.57207 12.935 2.60907 12.951L2.61907 12.954L5.78807 14.02ZM19.9261 4.86799H19.9241C19.9155 4.87181 19.9068 4.87548 19.8981 4.87899L3.16407 11.444C3.15546 11.4475 3.14679 11.4508 3.13807 11.454L3.12807 11.457C3.0975 11.469 3.06747 11.4823 3.03807 11.497C3.0659 11.5129 3.09462 11.5273 3.12407 11.54L6.26607 12.598C6.32222 12.6169 6.37593 12.6424 6.42607 12.674L16.8031 6.59899L16.8131 6.59399C16.8534 6.56949 16.8948 6.5468 16.9371 6.52599C17.0091 6.48899 17.1241 6.43499 17.2541 6.39499C17.3441 6.36699 17.6111 6.28799 17.8991 6.38099C18.0518 6.42914 18.188 6.51927 18.2919 6.64111C18.3959 6.76294 18.4635 6.91156 18.4871 7.06999C18.5243 7.20874 18.5253 7.35472 18.4901 7.49399C18.4201 7.76899 18.2281 7.98299 18.0531 8.14699C17.9031 8.28699 15.9571 10.163 14.0381 12.015L11.4251 14.535L10.9601 14.985L16.8321 19.487C16.9113 19.5203 16.9974 19.534 17.0831 19.527C17.1262 19.5211 17.1668 19.5031 17.2001 19.475C17.2406 19.4408 17.2754 19.4002 17.3031 19.355L17.3051 19.354L20.1951 4.78099C20.104 4.80288 20.0148 4.83163 19.9281 4.86699L19.9261 4.86799ZM11.4651 17.262L10.2931 16.364L10.0091 18.169L11.4651 17.262ZM9.21807 14.582L10.3831 13.457L12.9961 10.935L13.9691 9.99699L7.44907 13.814L7.48407 13.896C7.89528 14.8674 8.30195 15.8408 8.70407 16.816L8.98707 15.016C9.01268 14.849 9.09411 14.6967 9.21807 14.582Z"
+                        fill="#303030" fill-opacity="0.5" />
+                    </svg>
+                  </a>
+                  <a class="socialHover insta">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16Z"
+                        stroke="#303030" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path
+                        d="M3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16Z"
+                        stroke="#303030" stroke-opacity="0.5" stroke-width="2" />
+                      <path d="M17.5 6.50865L17.5088 6.49902" stroke="#303030" stroke-opacity="0.5" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 mt-5">
+                <h5 class="fs-18 fw-bold text-gray">مجوزهای حامی:</h5>
+                <div class="d-flex align-items-center gap-4">
+                  <a>
+                    <img alt="img" src="assets/img/enamad-1024x669 1.png">
+                  </a>
+                  <a>
+                    <img alt="img" src="assets/img/image 3.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center gap-3 mt-3 mb-4">
+        <img alt="img" src="assets/img/abstract-letter-logo-design_650075-1657 1.png">
+        <p class="mb-0 fw-bold fs-18 fs-sm-14">© تمامی حقوق این وب‌سایت متعلق به <a
+            class="texthover text-dark">WordCode</a>
+          میباشد.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/showMore.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

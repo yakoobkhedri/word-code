@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link href="assets/css/swiper.min.css">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
+  <title>خدمات</title>
+</head>
+
+<body>
+
+  <!-- mobile menu -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="p-3">
+      <form class="rounded-20 h-57 w-100 bg-gray3 d-flex align-items-center px-3 fs-14 fw-bold gap-3">
+        <input placeholder="جستجو..." class="flex-grow-1 bg-transparent outline-none border-0">
+        <span class="line flex-shrink-0 d-block"></span>
+        <button class="bg-transparent border-0">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+              stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22 22L20 20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+            <script xmlns=""></script>
+          </svg>
+        </button>
+      </form>
+      <ul class="fs-14 mt-4 fw-bold p-0 m-0 list-unstyled d-flex flex-column gap-4">
+        <li>
+          <a class="texthover d-block text-dark">صفحه اصلی</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">نمونه کارها</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">وبلاگ</a>
+        </li>
+        <li>
+          <a class="texthover d-block text-dark">درباره ما</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- header -->
+
+  <header>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between gap-3 pt-2">
+        <a><img class="w-sm-120" alt="img" src="assets/img/Group 4973.png"></a>
+        <div class="d-flex align-items-center justify-content-end gap-5 w-100 me-auto">
+          <form
+            class="rounded-20 h-57 max-w-416 w-100 bg-gray3 d-lg-flex d-none align-items-center px-3 fs-14 fw-bold gap-3">
+            <input placeholder="جستجو..." class="flex-grow-1 bg-transparent outline-none border-0">
+            <span class="line flex-shrink-0 d-block"></span>
+            <button class="bg-transparent border-0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                  stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22 22L20 20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <script xmlns="" />
+              </svg>
+            </button>
+          </form>
+          <a class="d-flex align-items-center gap-2 text-dark">
+            <div>
+              <p class="mb-0 fw-bold">۰۲۱-۱۲۳۴۴۵۶</p>
+              <p class="mb-0 fs-12 text-gray3">پشتیبانی ۲۴ ساعته</p>
+            </div>
+            <img alt="img" src="assets/img/Group 4970.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-sky2 shadow3 py-2 mt-2 position-relative">
+      <img alt="img" src="assets/img/Rectangle 52.png"
+        class="position-absolute w-274 w-sm-154 end-0 top-0 bottom-0 h-100">
+      <img alt="img" src="assets/img/Rectangle 53.png"
+        class="position-absolute w-274 w-sm-154 right-6 top-0 bottom-0 h-100">
+      <div class="container position-relative">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <div class="d-flex align-items-center gap-5">
+            <div class="d-flex align-items-center gap-3">
+              <img alt="img" src="assets/img/Frame 5007.svg">
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-14 fw-bold p-0 text-white" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  خدمات ما
+                </a>
+                <ul class="dropdown-menu text-end">
+                  <li><a class="dropdown-item" href="#">وردپرس</a></li>
+                  <li><a class="dropdown-item" href="#">کدنویسی</a></li>
+                  <li><a class="dropdown-item" href="#">سئو</a></li>
+                </ul>
+              </div>
+            </div>
+            <nav class="me-4 d-none d-lg-block">
+              <ul class="fs-14 fw-bold p-0 m-0 list-unstyled d-flex align-items-center gap-lg-5 gap-4">
+                <li>
+                  <a class="texthover text-dark">صفحه اصلی</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">نمونه کارها</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">وبلاگ</a>
+                </li>
+                <li>
+                  <a class="texthover text-dark">درباره ما</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <a
+              class="fs-14 btnhover w-142 w-sm-53 h-51 fw-bold bg-main text-white d-flex align-items-center justify-content-center gap-2 rounded-20">
+              <img alt="img" src="assets/img/profile.svg">
+              <p class="mb-0 d-none d-sm-block">پنل مشتریان</p>
+            </a>
+            <svg data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" xmlns="http://www.w3.org/2000/svg"
+              width="28" height="28" fill="currentColor" class="bi bi-list cursor d-lg-none" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+
+  <main>
+
+    <section>
+      <div class="container mt-5">
+        <div class="rounded-20 text-center p-sm-5 p-4 pb-sm-0 pb-0 bg-sky2 position-relative overflow-hidden">
+          <img alt="img" src="assets/img/Group 9159.png" class="position-absolute end-0 top-0 bottom-0 h-100">
+          <img alt="img" src="assets/img/Ellipse 721.png" class="position-absolute start-0 bottom-0">
+          <img alt="img" src="assets/img/Vector.svg" class="position-absolute left-18 top-50">
+          <div class="position-relative">
+            <h3 class="fs-28 fs-sm-20 lh-base mb-3">
+              توسعه <span class="text-main font-bold">پلاگین اختصاصی وردپرس</span><br>
+              متناسب با نیاز واقعی کسب‌وکار شما
+            </h3>
+            <p class="fs-sm-14">
+              ما پلاگین‌های وردپرس را از صفر و بر اساس سناریوی واقعی کسب‌وکار شما توسعه می‌دهیم؛<br> نه بر پایه قالب‌های
+              آماده، نه با کدهای سنگین و غیرقابل توسعه.
+            </p>
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center gap-4 my-5">
+              <a
+                class="d-flex align-items-center gap-1 bg-main text-white font-bold fs-14 btnhover rounded-20 w-204 h-49 px-3">
+                <img alt="img" src="assets/img/call-outgoing.svg" class="flex-shrink-0">
+                <p class="mb-0">درخواست مشاوره رایگان</p>
+              </a>
+              <a
+                class="text-main font-bold fs-14 btnhover rounded-20 w-150 h-49 px-2 d-flex align-items-center justify-content-center border-main">
+                مشاهده نمونه کارها
+              </a>
+            </div>
+            <a class="position-absolute end-0 start-0 -bottom-48 mx-auto">
+              <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="115" height="29" viewBox="0 0 115 29"
+                fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.808594 0C12.6826 0 23.9746 5.14326 31.7683 14.1015C48.3963 33.2142 77.9745 33.5444 95.025 14.8076L104.338 4.57329C106.989 1.6604 110.745 0 114.683 0H0.808594Z"
+                  fill="white"></path>
+              </svg>
+              <img alt="img" src="assets/img/arrow-down (2).svg"
+                class="position-absolute mx-auto -bottom-5 end-0 start-0">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="w-61 h-61 rounded-20 d-flex align-items-center justify-content-center mx-auto bg-sky4">
+              <img alt="img" src="assets/img/flash.svg">
+            </div>
+            <p class="fw-bold fs-sm-16 fs-18 text-center mt-4 mb-0">سرعت بهتر سایت</p>
+          </div>
+          <div class="col-md-6 col-lg-3 border-end-lg-0 border-end">
+            <div class="w-61 h-61 rounded-20 d-flex align-items-center justify-content-center mx-auto bg-sky4">
+              <img alt="img" src="assets/img/shield.svg">
+            </div>
+            <p class="fw-bold fs-sm-16 fs-18 text-center mt-4 mb-0">امنیت بالاتر</p>
+          </div>
+          <div class="col-md-6 col-lg-3 border-end-lg-0 border-end">
+            <div class="w-61 h-61 rounded-20 d-flex align-items-center justify-content-center mx-auto bg-sky4">
+              <img alt="img" src="assets/img/setting-2.svg">
+            </div>
+            <p class="fw-bold fs-sm-16 fs-18 text-center mt-4 mb-0">کنترل کامل روی قابلیت‌ها</p>
+          </div>
+          <div class="col-md-6 col-lg-3 border-end-lg-0 border-end">
+            <div class="w-61 h-61 rounded-20 d-flex align-items-center justify-content-center mx-auto bg-sky4">
+              <img alt="img" src="assets/img/element-plus.svg">
+            </div>
+            <p class="fw-bold fs-sm-16 fs-18 text-center mt-4 mb-0">توسعه‌پذیری و مقیاس‌پذیری</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <h4 class="font-bold fs-24 fs-sm-20 position-relative text-center">
+          <span class="font-bold position-absolute end-0 start-0 -top-29 fs-46 text-gray8">WordPress</span>
+          <span class="position-relative">خدمات توسعه اختصاصی وردپرس</span>
+        </h4>
+        <div class="mt-5">
+          <div class="row g-4">
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9165.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2">توسعه پلاگین اختصاصی </p>
+                <p class="mb-0">طراحی و پیاده‌سازی پلاگین‌های کاملاً اختصاصی بر اساس نیاز کسب‌وکار شما، بدون استفاده از
+                  افزونه‌های سنگین و آماده، با کدنویسی تمیز و بهینه.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9166.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2">افزونه‌های ووکامرس و فروشگاهی</p>
+                <p class="mb-0">
+                  توسعه قابلیت‌های سفارشی برای WooCommerce شامل فیلدهای اختصاصی محصول، قیمت‌گذاری پیشرفته، درگاه پرداخت،
+                  سیستم‌های رزرو و اتوماسیون فروش.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9167.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2">فرم‌ها و سیستم‌های جمع‌آوری اطلاعات</p>
+                <p class="mb-0">
+                  ساخت فرم‌های پیشرفته، ذخیره داده در دیتابیس اختصاصی، پنل مدیریت، خروجی اکسل/JSON و اتصال به API یا
+                  سرویس‌های دیگر.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9168.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2">API و اتصال به سرویس‌های خارجی</p>
+                <p class="mb-0">
+                  اتصال وردپرس به سیستم‌های خارجی مانند CRM، اپلیکیشن موبایل، پرداخت، پنل پیامک و ایجاد REST API اختصاصی
+                  و امن.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9169.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2">توسعه پلاگین‌های مدیریتی و پنل ادمین</p>
+                <p class="mb-0">
+                  ساخت داشبوردهای مدیریتی، لیست‌های پیشرفته، گزارش‌گیری، مدیریت کاربران
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="rounded-30 border text-center p-4 pb-5 h-100">
+                <img alt="img" src="assets/img/Group 9170.png" class="mx-auto d-block">
+                <p class="fs-18 font-bold text-main mt-2"> تبدیل ایده به محصول قابل فروش</p>
+                <p class="mb-0">
+                  طراحی پلاگین‌های حرفه‌ای قابل عرضه در مارکت‌ها (Codecanyon / WordPress.org) با معماری استاندارد،
+                  مستندسازی و پشتیبانی بلندمدت.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-5">
+      <div class="container px-0 px-lg-3">
+        <h4 class="font-bold fs-24 fs-sm-20 position-relative text-center px-3 px-lg-0">
+          <span class="font-bold position-absolute end-0 start-0 top-22 fs-46 text-gray8">WordPress</span>
+          <span class="position-relative">نمونه‌کارهای طراحی افزونه اختصاصی وردپرس</span>
+        </h4>
+        <div class="mt-3">
+          <div class="swiper portfolio px-3 py-5 fw-bold">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(1).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104.png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(2).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(1).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104.png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(2).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(1).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104.png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="flex-column flex-sm-row fs-sm-14 d-flex align-items-center gap-3 p-3 rounded-10 shadow6">
+                  <img alt="img" src="assets/img/Rectangle 1104(2).png" class="rounded-10 flex-shrink-0">
+                  <div>
+                    <p class="text-dark">
+                      افزونه مقایسه ووکامرس مشابه
+                      دیجی کالا
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end gap-1">
+                      <p class="mb-0 text-yellow">مشاهده جزییات افزونه</p>
+                      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.2876 14.9396L6.3976 10.0496C5.8201 9.47207 5.8201 8.52707 6.3976 7.94957L11.2876 3.05957"
+                          stroke="#FFB628" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <script xmlns="" />
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination -bottom-8"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <h4 class="font-bold fs-24 fs-sm-20 position-relative text-center">
+          <span class="font-bold position-absolute end-0 start-0 -top-29 fs-46 text-gray8">FAQ</span>
+          <span class="position-relative">سوالات متداول</span>
+        </h4>
+        <div class="mt-5">
+          <div class="border rounded-10 p-3 accordionbox mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 cursor accordionBtn">
+              <p class="mb-0 font-bold fs-18 fs-sm-14">آیا از پلاگین‌های آماده استفاده می‌کنید؟</p>
+              <div class="w-48 h-48 d-flex align-items-center justify-content-center rounded-10 bg-main flex-shrink-0">
+                <img alt="img" src="assets/img/arrow-up.svg">
+              </div>
+            </div>
+            <div class="text-justify accordionContent fs-sm-14">
+              خیر. تمام افزونه‌ها به‌صورت اختصاصی و بر اساس نیاز پروژه توسعه داده می‌شوند تا از نظر سرعت، امنیت و
+              توسعه‌پذیری بهینه باشند.
+            </div>
+          </div>
+          <div class="border rounded-10 p-3 accordionbox mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 cursor accordionBtn">
+              <p class="mb-0 font-bold fs-18 fs-sm-14">توسعه پلاگین اختصاصی چه مزیتی نسبت به پلاگین آماده دارد؟</p>
+              <div class="w-48 h-48 d-flex align-items-center justify-content-center rounded-10 bg-main flex-shrink-0">
+                <img alt="img" src="assets/img/arrow-up.svg">
+              </div>
+            </div>
+            <div class="text-justify accordionContent fs-sm-14">
+              خیر. تمام افزونه‌ها به‌صورت اختصاصی و بر اساس نیاز پروژه توسعه داده می‌شوند تا از نظر سرعت، امنیت و
+              توسعه‌پذیری بهینه باشند.
+            </div>
+          </div>
+          <div class="border rounded-10 p-3 accordionbox mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 cursor accordionBtn">
+              <p class="mb-0 font-bold fs-18 fs-sm-14">آیا افزونه‌ها با قالب اختصاصی یا المنتور سازگار هستند؟</p>
+              <div class="w-48 h-48 d-flex align-items-center justify-content-center rounded-10 bg-main flex-shrink-0">
+                <img alt="img" src="assets/img/arrow-up.svg">
+              </div>
+            </div>
+            <div class="text-justify accordionContent fs-sm-14">
+              خیر. تمام افزونه‌ها به‌صورت اختصاصی و بر اساس نیاز پروژه توسعه داده می‌شوند تا از نظر سرعت، امنیت و
+              توسعه‌پذیری بهینه باشند.
+            </div>
+          </div>
+          <div class="border rounded-10 p-3 accordionbox mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 cursor accordionBtn">
+              <p class="mb-0 font-bold fs-18 fs-sm-14">امکان اتصال وردپرس به سیستم‌های خارجی وجود دارد؟</p>
+              <div class="w-48 h-48 d-flex align-items-center justify-content-center rounded-10 bg-main flex-shrink-0">
+                <img alt="img" src="assets/img/arrow-up.svg">
+              </div>
+            </div>
+            <div class="text-justify accordionContent fs-sm-14">
+              خیر. تمام افزونه‌ها به‌صورت اختصاصی و بر اساس نیاز پروژه توسعه داده می‌شوند تا از نظر سرعت، امنیت و
+              توسعه‌پذیری بهینه باشند.
+            </div>
+          </div>
+          <div class="border rounded-10 p-3 accordionbox mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 cursor accordionBtn">
+              <p class="mb-0 font-bold fs-18 fs-sm-14">امنیت افزونه‌های اختصاصی چگونه تضمین می‌شود؟</p>
+              <div class="w-48 h-48 d-flex align-items-center justify-content-center rounded-10 bg-main flex-shrink-0">
+                <img alt="img" src="assets/img/arrow-up.svg">
+              </div>
+            </div>
+            <div class="text-justify accordionContent fs-sm-14">
+              خیر. تمام افزونه‌ها به‌صورت اختصاصی و بر اساس نیاز پروژه توسعه داده می‌شوند تا از نظر سرعت، امنیت و
+              توسعه‌پذیری بهینه باشند.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 pt-5">
+      <div class="container">
+        <div class="position-relative">
+          <div class="position-absolute rotate-1 rotate-sm-3 bg-yellow top-0 bottom-0 end-0 start-0 rounded-50 w-100 h-100"></div>
+          <form class="rounded-50 rounded-sm-24 p-38 p-sm-22 d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3 bg-gradient-2 position-relative">
+            <div>
+              <p class="font-bold fs-18 text-white mb-2">ثبت سفارش</p>
+              <p class="mb-0 fs-14 text-white">لطفا فرم زیر را کامل نمایید تا کارشناسان ما در اسرع وقت با شما<br> تماس بگیرند.</p>
+            </div>
+            <div class="d-flex align-items-center gap-2 h-57 w-lg-100 flex-grow-1 px-3 border border-white rounded-30 bg-white-24">
+              <img alt="img" src="assets/img/profile (2).svg" class="flex-shrink-0">
+               <input placeholder="نام و نام خانوادگی" class="fs-14 font-bold text-white flex-grow-1 bg-transparent border-0 outline-none">
+            </div>
+             <div class="d-flex align-items-center gap-2 h-57 w-lg-100 flex-grow-1 px-3 border border-white rounded-30 bg-white-24">
+              <img alt="img" src="assets/img/mobile.svg" class="flex-shrink-0">
+               <input placeholder="شماره تماس" class="fs-14 font-bold text-white flex-grow-1 bg-transparent border-0 outline-none">
+            </div>
+            <button class="w-142 h-57 btnhover border-0 transition d-flex align-items-center justify-content-center gap-2 rounded-30 bg-gray3 text-main font-bold fs-18">
+              <p class="mb-0">ارسال</p>
+              <img alt="img" src="assets/img/send-2.svg" class="flex-shrink-0">
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="mt-5 pt-5">
+    <div class="container">
+      <div class="bg-sky rounded-20 p-4 py-5 position-relative">
+        <svg class="position-absolute left-45 top-0" xmlns="http://www.w3.org/2000/svg" width="115" height="29"
+          viewBox="0 0 115 29" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.808594 0C12.6826 0 23.9746 5.14326 31.7683 14.1015C48.3963 33.2142 77.9745 33.5444 95.025 14.8076L104.338 4.57329C106.989 1.6604 110.745 0 114.683 0H0.808594Z"
+            fill="white"></path>
+        </svg>
+        <a href="#"
+          class="w-64 h-64 translateHover d-flex align-items-center justify-content-center position-absolute left-76 rounded-circle -top-47 bg-gradient-1">
+          <img alt="img" src="assets/img/Group 4942.svg">
+        </a>
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between gap-lg-5 gap-2">
+          <a><img alt="img" src="assets/img/Group 9145.png"></a>
+          <p class="fs-18 fs-sm-14 fw-bold text-justify mb-0">
+            ارائه‌دهنده خدمات توسعه اختصاصی پلاگین‌های وردپرس و نرم‌افزارهای تحت وب است. تمرکز ما بر کیفیت کد، امنیت،
+            عملکرد بالا و ایجاد راهکارهایی متناسب با رشد کسب‌وکار شماست.
+          </p>
+        </div>
+        <div class="mt-4 d-flex align-items-center gap-3 flex-wrap flex-lg-nowrap justify-content-between">
+          <div class="d-flex align-items-center gap-3 pe-3 border-r-yellow flex-shrink-0">
+            <p class="fw-bold fs-20 fs-sm-16 mb-0"><span class="text-main">ارتباط</span> با ما</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/call-calling.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14"><span class="text-main">۰۲۱-</span>۴۴۱۹۵۱۰۱-۳</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/sms.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14">info@wordcode.com</p>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div class="w-51 h-45 d-flex align-items-center justify-content-center bg-white rounded-20 flex-shrink-0">
+              <img alt="img" src="assets/img/location.svg">
+            </div>
+            <p class="mb-0 fw-bold fs-18 fs-sm-14">تهران ، خیابان شهید استاد مطهری ، نبش خیابان شهید دکتر مفتح</p>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <h5 class="fs-18 fw-bold text-gray">خدمات</h5>
+              <ul class="list-unstyled mt-3 mb-0 p-0">
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه پلاگین اختصاصی وردپرس</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه نرم‌افزارهای تحت وب</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">توسعه قالب‌های اختصاصی وردپرس</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">بهینه‌سازی و توسعه امکانات اختصاصی</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="fs-18 fw-bold text-gray">دسترسی سریع</h5>
+              <ul class="list-unstyled mt-3 mb-0 p-0">
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">صفحه اصلی</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">مقالات</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">تماس با ما</a>
+                </li>
+                <li class="mb-2">
+                  <a class="text-main-50 texthover">درخواست مشاوره</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2">
+                <h5 class="fs-18 fw-bold text-gray">شبکه های اجتماعی:</h5>
+                <div class="d-flex align-items-center gap-4">
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <g clip-path="url(#clip0_266_1064)">
+                        <path
+                          d="M12.0011 1.59392C2.7311 1.59092 -1.9119 12.7969 4.6411 19.3519C6.09588 20.8071 7.9495 21.7981 9.96756 22.1998C11.9856 22.6014 14.0774 22.3955 15.9785 21.6082C17.8796 20.821 19.5044 19.4876 20.6477 17.7768C21.7909 16.066 22.4011 14.0545 22.4011 11.9969C22.4011 6.25292 17.7461 1.59592 12.0011 1.59392ZM6.1101 6.78292C6.6111 4.18492 10.0031 3.48892 11.4861 5.67992C12.9691 7.87092 11.0641 10.7619 8.4661 10.2619C8.08291 10.1883 7.71797 10.0399 7.39215 9.8252C7.06633 9.61049 6.78602 9.33369 6.56722 9.0106C6.34842 8.68752 6.19544 8.32448 6.117 7.94224C6.03857 7.56001 6.03622 7.16606 6.1101 6.78292ZM10.4321 15.7709C9.9281 18.3679 6.5361 19.0589 5.0551 16.8669C3.5741 14.6749 5.4821 11.7869 8.0801 12.2879C8.46334 12.362 8.82823 12.5108 9.1539 12.726C9.47957 12.9412 9.75963 13.2184 9.97807 13.5419C10.1965 13.8654 10.349 14.2287 10.427 14.6112C10.5049 14.9937 10.5066 15.3878 10.4321 15.7709ZM11.6921 13.3659C10.5401 13.1429 10.2301 11.6389 11.2011 10.9789C12.1711 10.3189 13.4571 11.1589 13.2411 12.3129C13.2091 12.4839 13.1435 12.6469 13.0483 12.7925C12.953 12.9381 12.8299 13.0635 12.6861 13.1613C12.5422 13.2592 12.3804 13.3277 12.21 13.3628C12.0396 13.3979 11.8629 13.3989 11.6921 13.3659ZM17.8911 17.2039C17.3901 19.8019 13.9981 20.4969 12.5151 18.3069C11.0321 16.1169 12.9361 13.2249 15.5351 13.7239C15.9184 13.7975 16.2834 13.946 16.6093 14.1607C16.9352 14.3755 17.2156 14.6524 17.4344 14.9756C17.6532 15.2988 17.8062 15.6619 17.8845 16.0443C17.9629 16.4267 17.9651 16.8207 17.8911 17.2039ZM15.9241 11.7019C13.3261 11.2009 12.6311 7.80592 14.8221 6.32192C17.0131 4.83792 19.9031 6.74392 19.4041 9.34192C19.331 9.72557 19.1829 10.091 18.9683 10.4174C18.7537 10.7437 18.4769 11.0245 18.1536 11.2438C17.8304 11.463 17.4671 11.6163 17.0845 11.6949C16.7019 11.7735 16.3076 11.7759 15.9241 11.7019ZM13.5901 23.2639L15.8541 23.8739C16.8061 24.1265 17.8194 23.9907 18.6713 23.4964C19.5232 23.0021 20.144 22.1898 20.3971 21.2379L21.0371 18.8359C19.2355 21.2363 16.5585 22.8278 13.5891 23.2639M21.2321 3.59892L18.8691 2.96992C20.0631 3.88862 21.0628 5.03525 21.8102 6.34331C22.5576 7.65137 23.0379 9.09481 23.2231 10.5899L23.8731 8.13092C24.1219 7.17979 23.9835 6.16883 23.4883 5.31953C22.9931 4.47024 22.1814 3.85187 21.2311 3.59992M0.672102 13.8089L0.131102 15.8489C-0.1215 16.8009 0.0142757 17.8142 0.50858 18.6661C1.00288 19.518 1.81526 20.1388 2.7671 20.3919L4.8741 20.9539C2.62464 19.1854 1.12499 16.6343 0.672102 13.8089ZM10.3571 0.701917L8.1501 0.125917C7.67839 0.000260472 7.18654 -0.0311959 6.70266 0.0333455C6.21879 0.097887 5.75238 0.257161 5.33009 0.502062C4.90781 0.746963 4.53793 1.07269 4.2416 1.46062C3.94527 1.84855 3.72831 2.29108 3.6031 2.76292L3.0521 4.84492C4.87009 2.58287 7.48259 1.10083 10.3571 0.701917Z"
+                          fill="#303030" fill-opacity="0.5" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_266_1064">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M19.05 4.91006C18.1332 3.98399 17.0412 3.24973 15.8377 2.75011C14.6341 2.25049 13.3432 1.99552 12.04 2.00006C6.58005 2.00006 2.13005 6.45006 2.13005 11.9101C2.13005 13.6601 2.59005 15.3601 3.45005 16.8601L2.05005 22.0001L7.30005 20.6201C8.75005 21.4101 10.38 21.8301 12.04 21.8301C17.5 21.8301 21.9501 17.3801 21.9501 11.9201C21.9501 9.27006 20.92 6.78006 19.05 4.91006ZM12.04 20.1501C10.56 20.1501 9.11005 19.7501 7.84005 19.0001L7.54005 18.8201L4.42005 19.6401L5.25005 16.6001L5.05005 16.2901C4.2278 14.977 3.79119 13.4593 3.79005 11.9101C3.79005 7.37006 7.49005 3.67006 12.03 3.67006C14.23 3.67006 16.3 4.53006 17.85 6.09006C18.6175 6.85402 19.2257 7.76272 19.6394 8.76348C20.0531 9.76425 20.2641 10.8372 20.26 11.9201C20.2801 16.4601 16.58 20.1501 12.04 20.1501ZM16.56 13.9901C16.31 13.8701 15.09 13.2701 14.87 13.1801C14.64 13.1001 14.48 13.0601 14.31 13.3001C14.14 13.5501 13.67 14.1101 13.53 14.2701C13.39 14.4401 13.24 14.4601 12.99 14.3301C12.74 14.2101 11.94 13.9401 11 13.1001C10.26 12.4401 9.77005 11.6301 9.62005 11.3801C9.48005 11.1301 9.60005 11.0001 9.73005 10.8701C9.84005 10.7601 9.98005 10.5801 10.1 10.4401C10.22 10.3001 10.27 10.1901 10.35 10.0301C10.43 9.86006 10.39 9.72006 10.33 9.60006C10.27 9.48006 9.77005 8.26006 9.57005 7.76006C9.37005 7.28006 9.16005 7.34006 9.01005 7.33006H8.53005C8.36005 7.33006 8.10005 7.39006 7.87005 7.64006C7.65005 7.89006 7.01005 8.49006 7.01005 9.71006C7.01005 10.9301 7.90005 12.1101 8.02005 12.2701C8.14005 12.4401 9.77005 14.9401 12.25 16.0101C12.84 16.2701 13.3 16.4201 13.66 16.5301C14.25 16.7201 14.79 16.6901 15.22 16.6301C15.7 16.5601 16.69 16.0301 16.89 15.4501C17.1 14.8701 17.1 14.3801 17.03 14.2701C16.96 14.1601 16.81 14.1101 16.56 13.9901Z"
+                        fill="#303030" fill-opacity="0.5" />
+                    </svg>
+                  </a>
+                  <a class="socialHover three">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.78807 14.02C5.83104 14.0343 5.87522 14.0447 5.92007 14.051C6.20299 14.7176 6.48433 15.385 6.76407 16.053C7.26707 17.255 7.77407 18.493 7.88507 18.849C8.02407 19.287 8.17007 19.585 8.33007 19.789C8.41307 19.893 8.50807 19.985 8.62007 20.055C8.67842 20.0915 8.74084 20.121 8.80607 20.143C9.12607 20.263 9.41807 20.213 9.60107 20.152C9.70846 20.1153 9.81065 20.0649 9.90507 20.002L9.91007 20L12.7361 18.238L16.0011 20.74C16.0491 20.777 16.1011 20.808 16.1571 20.833C16.5491 21.003 16.9291 21.063 17.2871 21.015C17.6431 20.965 17.9261 20.816 18.1371 20.647C18.3794 20.4517 18.5725 20.2024 18.7011 19.919L18.7101 19.897L18.7131 19.889L18.7151 19.885V19.883L18.7161 19.882C18.7335 19.839 18.7468 19.7945 18.7561 19.749L21.7361 4.72399C21.7455 4.67589 21.7502 4.62699 21.7501 4.57799C21.7501 4.13799 21.5841 3.71899 21.1951 3.46599C20.8611 3.24899 20.4901 3.23899 20.2551 3.25699C20.0031 3.27699 19.7691 3.33899 19.6121 3.38899C19.5242 3.41684 19.4375 3.4482 19.3521 3.48299L19.3411 3.48799L2.62707 10.044L2.62507 10.045C2.56852 10.0658 2.51281 10.0888 2.45807 10.114C2.32553 10.1736 2.19839 10.2445 2.07807 10.326C1.85107 10.481 1.32807 10.907 1.41707 11.611C1.48707 12.171 1.87107 12.516 2.10607 12.682C2.23407 12.773 2.35607 12.838 2.44607 12.881C2.48607 12.901 2.57207 12.935 2.60907 12.951L2.61907 12.954L5.78807 14.02ZM19.9261 4.86799H19.9241C19.9155 4.87181 19.9068 4.87548 19.8981 4.87899L3.16407 11.444C3.15546 11.4475 3.14679 11.4508 3.13807 11.454L3.12807 11.457C3.0975 11.469 3.06747 11.4823 3.03807 11.497C3.0659 11.5129 3.09462 11.5273 3.12407 11.54L6.26607 12.598C6.32222 12.6169 6.37593 12.6424 6.42607 12.674L16.8031 6.59899L16.8131 6.59399C16.8534 6.56949 16.8948 6.5468 16.9371 6.52599C17.0091 6.48899 17.1241 6.43499 17.2541 6.39499C17.3441 6.36699 17.6111 6.28799 17.8991 6.38099C18.0518 6.42914 18.188 6.51927 18.2919 6.64111C18.3959 6.76294 18.4635 6.91156 18.4871 7.06999C18.5243 7.20874 18.5253 7.35472 18.4901 7.49399C18.4201 7.76899 18.2281 7.98299 18.0531 8.14699C17.9031 8.28699 15.9571 10.163 14.0381 12.015L11.4251 14.535L10.9601 14.985L16.8321 19.487C16.9113 19.5203 16.9974 19.534 17.0831 19.527C17.1262 19.5211 17.1668 19.5031 17.2001 19.475C17.2406 19.4408 17.2754 19.4002 17.3031 19.355L17.3051 19.354L20.1951 4.78099C20.104 4.80288 20.0148 4.83163 19.9281 4.86699L19.9261 4.86799ZM11.4651 17.262L10.2931 16.364L10.0091 18.169L11.4651 17.262ZM9.21807 14.582L10.3831 13.457L12.9961 10.935L13.9691 9.99699L7.44907 13.814L7.48407 13.896C7.89528 14.8674 8.30195 15.8408 8.70407 16.816L8.98707 15.016C9.01268 14.849 9.09411 14.6967 9.21807 14.582Z"
+                        fill="#303030" fill-opacity="0.5" />
+                    </svg>
+                  </a>
+                  <a class="socialHover insta">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16Z"
+                        stroke="#303030" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path
+                        d="M3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16Z"
+                        stroke="#303030" stroke-opacity="0.5" stroke-width="2" />
+                      <path d="M17.5 6.50865L17.5088 6.49902" stroke="#303030" stroke-opacity="0.5" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 mt-5">
+                <h5 class="fs-18 fw-bold text-gray">مجوزهای حامی:</h5>
+                <div class="d-flex align-items-center gap-4">
+                  <a>
+                    <img alt="img" src="assets/img/enamad-1024x669 1.png">
+                  </a>
+                  <a>
+                    <img alt="img" src="assets/img/image 3.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center gap-3 mt-3 mb-4">
+        <img alt="img" src="assets/img/abstract-letter-logo-design_650075-1657 1.png">
+        <p class="mb-0 fw-bold fs-18 fs-sm-14">© تمامی حقوق این وب‌سایت متعلق به <a
+            class="texthover text-dark">WordCode</a>
+          میباشد.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/accordion.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
